@@ -3,17 +3,23 @@
     "phroute/phroute": "dev-master",
     "php-curl-class/php-curl-class": "dev-master",
     "elasticsearch/elasticsearch": "dev-master",
-    "monolog/monolog": "~1.17"
+    "monolog/monolog": "~1.17",
+    "neotsn/pizzy-db":"dev-master"
   },
   "require-dev": {
     "codeception/codeception": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "Compendium\\": "src/Compendium",
-      "Controllers\\": "src/Controllers",
       "Routes\\": "src/Routes",
-      "Febe\\": "src/Molten"
+      "Mantle\\": "src/Mantle",
+      "Molten\\": "src/Molten"
     }
-  }
+  },
+  "repositories": [
+        {
+            "type": "git",
+            "url":  "git@github.com:neotsn/pizzy-db.git"
+        }
+    ]
 }
