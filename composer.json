@@ -1,0 +1,19 @@
+{
+  "require": {
+    "phroute/phroute": "dev-master",
+    "php-curl-class/php-curl-class": "dev-master",
+    "elasticsearch/elasticsearch": "dev-master",
+    "monolog/monolog": "~1.17"
+  },
+  "require-dev": {
+    "codeception/codeception": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Compendium\\": "src/Compendium",
+      "Controllers\\": "src/Controllers",
+      "Routes\\": "src/Routes",
+      "Febe\\": "src/Molten"
+    }
+  }
+}
